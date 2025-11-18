@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Animalotchi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .faq-section {
+            padding: 8rem 5% 4rem;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 1rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: all 0.3s;
+        }
+
+        .faq-question:hover {
+            background: #f8f9fa;
+        }
+
+        .faq-toggle {
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 1.5rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .faq-answer p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo">
+                    <span>🐾</span>
+                    <span>Animalotchi</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Características ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="alimentacion.html">Alimentación</a></li>
+                        <li><a href="salud.html">Salud</a></li>
+                        <li><a href="recordatorios.html">Recordatorios</a></li>
+                        <li><a href="gestion-multiple.html">Gestión Múltiple</a></li>
+                    </ul>
+                </li>
+                <li><a href="descargar.html">Descargar</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Acerca de ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="beneficios.html">Beneficios</a></li>
+                        
+                        <li><a href="equipo.html">Equipo</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle active">Soporte ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="faq.html">FAQ</a></li>
+                     
+                    </ul>
+                </li>
+            </ul>
+            <a href="descargar.html"><button class="cta-button">Descargar App</button></a>
+        </div>
+    </nav>
+
+    <section class="faq-section">
+        <div class="section-title">
+            <h2>Preguntas Frecuentes</h2>
+            <p>Todo lo que necesitas saber sobre Animalotchi</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Puedo gestionar varias mascotas con una sola cuenta?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Sí! Animalotchi te permite agregar y gestionar todas tus mascotas desde una sola cuenta. Cada mascota tendrá su propio perfil con configuraciones personalizadas.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Cómo importo la cartilla de vacunación de mi veterinario?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Es muy sencillo. Desde la sección de "Salud" en el perfil de tu mascota, puedes importar PDFs directamente. La app extraerá la información relevante automáticamente o podrás ingresarla manualmente.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Los recordatorios funcionan sin conexión a internet?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Los recordatorios se guardan localmente en tu dispositivo, por lo que seguirás recibiéndolos aunque no tengas conexión. La sincronización con otros dispositivos sí requiere internet.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Puedo compartir la información con mi veterinario?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutamente. Puedes exportar toda la información de tu mascota en formato PDF y compartirla con tu veterinario por email o imprimirla.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿La app es gratuita?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Sí, Animalotchi es completamente gratuita para uso personal con hasta 3 mascotas. Ofrecemos planes premium con características adicionales para quien necesite gestionar más mascotas o funciones avanzadas.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Mis datos están seguros?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Sí, todos tus datos están encriptados y almacenados de forma segura. Utilizamos los mejores estándares de seguridad de la industria para proteger la información de tus mascotas.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿En qué dispositivos funciona Animalotchi?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Actualmente Animalotchi está disponible para dispositivos Android. Estamos trabajando en la versión para iOS que estará disponible próximamente.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>¿Puedo recibir soporte técnico?</span>
+                    <span class="faq-toggle">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Por supuesto! Puedes contactarnos a través de la página de contacto o enviarnos un correo. Nuestro equipo responderá todas tus dudas en menos de 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span>🐾</span>
+                        <span>Animalotchi</span>
+                    </div>
+                    <p>Tu asistente personal para el cuidado de mascotas</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Características</h4>
+                    <ul>
+                        <li><a href="alimentacion.html">Alimentación</a></li>
+                        <li><a href="salud.html">Salud</a></li>
+                        <li><a href="recordatorios.html">Recordatorios</a></li>
+                        <li><a href="gestion-multiple.html">Gestión Múltiple</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="beneficios.html">Beneficios</a></li>
+                      
+                        <li><a href="equipo.html">Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Animalotchi. Todos los derechos reservados.</p>
+                <p>Proyecto Universitario - Desarrollo de Software</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

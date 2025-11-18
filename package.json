@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "demo": "vite demo --open",
     "build": "tsc -b && vite build",
+    "build:demo": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:demo": "vite preview --open /demo/"
   },
   "dependencies": {
     "react": "^19.2.0",

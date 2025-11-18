@@ -1,0 +1,121 @@
+═══════════════════════════════════════════════════════════════
+   🐾 INSTRUCCIONES DE INSTALACIÓN - ANIMALOTCHI 🐾
+═══════════════════════════════════════════════════════════════
+
+¡Bienvenido! Has descargado exitosamente tu sitio web.
+
+📦 PASO 1: DESCOMPRIMIR EL ARCHIVO
+─────────────────────────────────────────────────────────────
+
+  Windows:
+  • Haz clic derecho sobre el archivo ZIP
+  • Selecciona "Extraer todo..." o "Extract all..."
+  • Elige una carpeta de destino
+  • Haz clic en "Extraer"
+
+  Mac:
+  • Haz doble clic sobre el archivo ZIP
+  • Se creará una carpeta automáticamente
+
+  Linux:
+  • Clic derecho → "Extraer aquí"
+  • O usa: unzip animalotchi-website.zip
+
+
+🚀 PASO 2: ABRIR EL SITIO WEB
+─────────────────────────────────────────────────────────────
+
+  1. Abre la carpeta que se creó
+  2. Busca el archivo: index.html
+  3. Haz DOBLE CLIC en index.html
+  4. ¡Listo! El sitio se abrirá en tu navegador
+
+  Alternativa:
+  • Arrastra index.html a tu navegador
+  • O clic derecho → Abrir con → Chrome/Firefox
+
+
+✅ VERIFICACIÓN
+─────────────────────────────────────────────────────────────
+
+  Deberías ver estos archivos en la carpeta:
+
+  📄 index.html              (página principal)
+  📄 styles.css              (estilos)
+  📄 script.js               (funcionalidades)
+  📄 alimentacion.html
+  📄 salud.html
+  📄 recordatorios.html
+  📄 gestion-multiple.html
+  📄 descargar.html
+  📄 beneficios.html
+  📄 estadisticas.html
+  📄 equipo.html
+  📄 faq.html
+  📄 contacto.html
+  📄 tutoriales.html
+  📖 README.md
+  📖 INICIO-RAPIDO.md
+  📖 SITEMAP.md
+  📖 LEEME-PRIMERO.txt
+
+
+🎯 NAVEGA POR EL SITIO
+─────────────────────────────────────────────────────────────
+
+  • Usa el menú superior para explorar
+  • Los menús con ▼ tienen submenús
+  • Prueba el logo 3D en la página "Descargar"
+  • Explora las animaciones al hacer scroll
+
+
+⚠️ IMPORTANTE
+─────────────────────────────────────────────────────────────
+
+  ✓ NO muevas los archivos de la carpeta
+  ✓ NO cambies los nombres de los archivos
+  ✓ Mantén todos juntos en la misma carpeta
+  ✓ Usa un navegador moderno (Chrome, Firefox, Edge, Safari)
+
+
+🔧 SOLUCIÓN DE PROBLEMAS
+─────────────────────────────────────────────────────────────
+
+  Problema: "La página se ve sin estilos"
+  Solución: Asegúrate de que styles.css esté en la misma
+            carpeta que index.html
+
+  Problema: "Los menús no funcionan"
+  Solución: Verifica que script.js esté en la carpeta
+
+  Problema: "No se abre el sitio"
+  Solución: Haz clic derecho en index.html → 
+            Abrir con → Elige tu navegador
+
+
+💡 CARACTERÍSTICAS DEL SITIO
+─────────────────────────────────────────────────────────────
+
+  ✨ 12 páginas completas
+  ✨ Menús dropdown interactivos
+  ✨ Logo 3D que sigue el mouse
+  ✨ Diseño responsive (móvil, tablet, PC)
+  ✨ Animaciones suaves
+  ✨ Formulario de contacto
+  ✨ FAQ con acordeón
+
+
+📖 DOCUMENTACIÓN ADICIONAL
+─────────────────────────────────────────────────────────────
+
+  • LEEME-PRIMERO.txt    → Empieza aquí
+  • README.md            → Documentación técnica
+  • INICIO-RAPIDO.md     → Guía paso a paso
+  • SITEMAP.md           → Mapa del sitio
+
+
+═══════════════════════════════════════════════════════════════
+
+        ¡Todo listo! Disfruta tu sitio web 🎉
+
+═══════════════════════════════════════════════════════════════

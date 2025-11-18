@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficios - Animalotchi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .benefits-page {
+            padding: 8rem 5% 4rem;
+            background: white;
+            min-height: 100vh;
+        }
+        .benefits-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+        }
+        .benefit-item {
+            display: flex;
+            gap: 2rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        .benefit-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .benefit-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #28a745, #20c997);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+        }
+        .benefit-content h3 {
+            font-size: 1.5rem;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+        .benefit-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" style="text-decoration: none;">
+                <div class="logo">
+                    <span>🐾</span>
+                    <span>Animalotchi</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Características ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="alimentacion.html">Alimentación</a></li>
+                        <li><a href="salud.html">Salud</a></li>
+                        <li><a href="recordatorios.html">Recordatorios</a></li>
+                        <li><a href="gestion-multiple.html">Gestión Múltiple</a></li>
+                    </ul>
+                </li>
+                <li><a href="descargar.html">Descargar</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle active">Acerca de ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="beneficios.html">Beneficios</a></li>
+                        
+                        <li><a href="equipo.html">Equipo</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Soporte ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="faq.html">FAQ</a></li>
+                       
+                    </ul>
+                </li>
+            </ul>
+            <a href="descargar.html"><button class="cta-button">Descargar App</button></a>
+        </div>
+    </nav>
+
+    <section class="benefits-page">
+        <div class="section-title">
+            <h2>¿Por qué elegir Animalotchi?</h2>
+            <p>Los beneficios que marcan la diferencia</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-item reveal">
+                <div class="benefit-number">01</div>
+                <div class="benefit-content">
+                    <h3>Ahorra Tiempo</h3>
+                    <p>Olvídate de recordar horarios manualmente. Animalotchi te avisa automáticamente cuando es hora de alimentar, medicar o llevar a tu mascota al veterinario.</p>
+                </div>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-number">02</div>
+                <div class="benefit-content">
+                    <h3>Mejora la Salud</h3>
+                    <p>Con un control preciso de alimentación, medicamentos y vacunas, tu mascota estará más saludable y vivirá más tiempo.</p>
+                </div>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-number">03</div>
+                <div class="benefit-content">
+                    <h3>Organización Total</h3>
+                    <p>Toda la información médica, vacunas, recetas y documentos de tu mascota en un solo lugar, accesible desde cualquier dispositivo.</p>
+                </div>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-number">04</div>
+                <div class="benefit-content">
+                    <h3>Tranquilidad Mental</h3>
+                    <p>Duerme tranquilo sabiendo que nunca olvidarás una comida, medicamento o cita veterinaria importante.</p>
+                </div>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-number">05</div>
+                <div class="benefit-content">
+                    <h3>Fácil de Usar</h3>
+                    <p>Interfaz intuitiva y amigable diseñada pensando en ti. No necesitas ser un experto en tecnología para usarla.</p>
+                </div>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-number">06</div>
+                <div class="benefit-content">
+                    <h3>Gratis y Accesible</h3>
+                    <p>Disponible sin costo para gestionar hasta 3 mascotas. Porque el cuidado de tu mascota no debería tener precio.</p>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 4rem;">
+            <a href="descargar.html"><button class="primary-btn">Obtén Estos Beneficios</button></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span>🐾</span>
+                        <span>Animalotchi</span>
+                    </div>
+                    <p>Tu asistente personal para el cuidado de mascotas</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Características</h4>
+                    <ul>
+                        <li><a href="alimentacion.html">Alimentación</a></li>
+                        <li><a href="salud.html">Salud</a></li>
+                        <li><a href="recordatorios.html">Recordatorios</a></li>
+                        <li><a href="gestion-multiple.html">Gestión Múltiple</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="beneficios.html">Beneficios</a></li>
+                        
+                        <li><a href="equipo.html">Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Animalotchi. Todos los derechos reservados.</p>
+                <p>Proyecto Universitario - Desarrollo de Software</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
