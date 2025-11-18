@@ -5,12 +5,13 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  root: 'demo',
   build: {
+    outDir: '../dist',
+    emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        // Demo pages
-        demo: resolve(__dirname, 'demo/index.html'),
+        main: resolve(__dirname, 'demo/index.html'),
         alimentacion: resolve(__dirname, 'demo/alimentacion.html'),
         beneficios: resolve(__dirname, 'demo/beneficios.html'),
         contacto: resolve(__dirname, 'demo/contacto.html'),
