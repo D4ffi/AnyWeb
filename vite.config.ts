@@ -6,9 +6,11 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [react()],
   root: 'demo',
+  publicDir: 'public',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
+    copyPublicDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'demo/index.html'),
